@@ -1,0 +1,31 @@
+h1{
+    font-size: 5rem;
+}
+
+header#header{
+    nav{
+        img{
+            max-height: 7rem;
+        }
+    }
+}
+
+
+section#banner{
+
+    min-height: 100vh;
+    position: relative;
+
+    
+}
+
+.textoBanner{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    right: 10%;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    
+}
