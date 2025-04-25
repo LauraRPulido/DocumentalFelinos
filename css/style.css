@@ -5,6 +5,10 @@
 h1{
     font-size: 5rem;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 
 header#header{
     nav{
@@ -54,6 +58,8 @@ section#banner {
       text-align: center;
       width: 90%;
       padding: 15px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 
+               0 0 12px rgba(0, 0, 0, 0.1);
   
       a{
           color: white;
@@ -71,6 +77,8 @@ section#banner {
   
 section#info{
 
+  background-color: black;
+
   height: 70vh;
 
   img{
@@ -79,20 +87,102 @@ section#info{
     width: auto;
   }
 
+  h2{
+      font-size: 2.5rem;
+      margin-bottom: none;
+  }
+
+  p{
+    font-size: 1.3rem;  
+    margin: 50px;
+    line-height: 1.7;
+    
+
+  }
+
+  a{
+    display: inline-block;
+    background-color: var(--amarillo);
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    
+    
+  }
   
 }
 
 section#especies{
     background: url(../img/bg-especies.jpg) no-repeat center center / cover fixed;
+    padding-bottom: 10vh;
 
-    .tarjetaAnimal{
-      h4{
+      h3{
         text-align: center;
+        font-size: 3rem;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 
+               0 0 12px rgba(0, 0, 0, 0.1);
       }
-      
-    }
+      h4{
+        font-style: italic;
+        font-size: 1.9rem;
+        color: var(--amarillo);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 
+               0 0 12px rgba(0, 0, 0, 0.1);
+      }
 
+      p{
+        font-size: 1.3rem;
+        line-height: 1.7;
+        margin-top: 30px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 
+               0 0 12px rgba(0, 0, 0, 0.1);
+      }
     
+}
+
+section#equipo{
+
+  min-height: 60vh;
+  align-content: center;
+  margin: auto;
+  background-color: black;
+
+  h3{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+
+  a{
+    display: inline-block;
+    background-color: var(--amarillo);
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+
+  }
+
+  h4{
+    text-align: center;
+    font-weight: 300;
+    line-height: 2;
+    font-size: 1.4rem;
+  }
+
+  img{
+    height: 10rem;
+    background-color: #FFAE00;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 2rem ;
+  }
 }
   
 
@@ -108,5 +198,9 @@ section#especies{
           font-size: 1.3rem;
         }
       }
+    }
+
+    section#info{
+      height: auto;
     }
   }
