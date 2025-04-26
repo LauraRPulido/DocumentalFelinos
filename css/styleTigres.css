@@ -1,0 +1,279 @@
+:root{
+    --amarillo: #FFAE00;
+    --marron: rgb(60, 39, 12);
+    --verdeOscuro: rgb(17, 29, 17);
+    --verdeClaro: rgb(74, 230, 84);
+    --verdeTenue: rgb(184, 255, 184);
+
+  }
+  
+  h1{
+      font-size: 5rem;
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  
+  header#header{
+      nav{
+          img{
+              max-height: 7rem;
+          }
+      }
+  }
+
+  section#banner{
+    min-height: 70vh;
+    background: url(../img/tigres/banner-tigre.jpg) no-repeat center center / cover fixed;
+
+    h2{
+        font-size: 5rem;
+        margin-top: 2rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 
+               0 0 12px rgba(0, 0, 0, 0.1); 
+    }
+    p{
+       font-size: 1.3rem;
+       margin-top: 2rem;
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 
+               0 0 12px rgba(0, 0, 0, 0.1); 
+    }
+  }
+
+  section#comportamiento{
+    min-height: 80vh;
+    background-color: var(--verdeOscuro);
+    
+
+    h3{
+        font-size: 3rem;
+        margin: 2rem 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 
+               0 0 12px rgba(0, 0, 0, 0.1); 
+    }
+
+    p{
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+
+    h4{
+        font-size: 1.9rem;
+        color: var(--verdeTenue);
+    }
+
+    h5{
+        font-size: 1.5rem;
+        margin-bottom: 0.8rem;
+        color: var(--verdeClaro);
+    }
+
+    
+
+    li{
+        list-style-type: none;
+        p{
+            font-size: 1.1rem;
+            font-style: normal;
+            font-weight: 500;
+        }
+    }
+
+    .card{
+        background-color: var(--verdeOscuro);
+        border: solid 2px var(--verdeClaro); 
+    }
+
+    .img-cover{
+
+        object-fit: cover;
+        object-position: center;  
+        
+    }
+
+
+  }
+
+  section#conservacion{
+    min-height: 70vh;
+    background: url(../img/leones/bg-comportamiento.jpg) no-repeat center center / cover;
+    padding: 3rem 0;
+
+    h3{
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 
+               0 0 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h4{
+        font-size: 2rem;
+        font-style: italic;
+        margin-bottom: 2rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 
+               0 0 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .conservacion{
+
+        h4{
+            font-size: 3rem;
+            font-style: normal;
+        }
+
+    }
+
+    .list-group-item{
+        p{
+            margin: 0;
+        }
+    }
+
+    .card{
+
+        border: solid 2px var(--amarillo);
+
+        h5{
+            font-size: 2rem;
+        }
+
+        h6{
+            font-size: 1.5rem;
+            font-style: italic;
+            color: var(--amarillo);
+        }
+
+        p{
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        a{
+            color: var(--amarillo);
+            font-weight: 500;
+            text-decoration: underline;
+            
+        }
+
+    } 
+  }
+
+  footer#footer{
+
+    max-height: 70vh;
+    margin-top: 40px;
+  
+    img{
+      max-height: 10rem;
+    }
+  
+    h5{
+      font-size: 2rem;
+    }
+  
+    p{
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+  
+    input:focus{
+  
+      box-shadow: 0 0 0 0.25rem rgba(255, 204, 0, 0.25);
+      border-color: var(--amarillo); 
+  
+    }
+  
+    .paglegales{
+  
+      a{
+        display: inline-block;
+        margin-right: 1.5rem;
+        margin-bottom: 1.2rem;
+        font-weight: 500;
+        color: black;
+      }
+    }
+  
+    .social{
+      
+      a{
+        display: block;
+        color: var(--amarillo);
+  
+        p{
+          display: inline;
+          padding: 0 20px;
+          font-style: normal;
+        }
+  
+        i{
+          font-size: 2rem;
+        }
+      }
+    }
+  
+    .copy{
+      background-color: var(--amarillo);
+      margin-top: 2rem;
+      min-height: 3rem;
+    }
+  }
+  
+  form#newsletter{
+  
+    .btn{
+      background-color: var(--amarillo);
+      border-radius: 0;
+      color: white;
+      font-weight: 500;
+  
+      &:hover{
+        color: var(--amarillo) ;
+        background-color: black;
+      }
+    }
+  
+    label{
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+  
+    span{
+      font-weight: 500;
+      font-size: 1.4rem;
+      color: orangered;
+    }
+  
+    .form-check{
+  
+      label{
+        font-size: 1rem;
+      }
+  
+      span{
+        font-size: 1rem;
+      }
+  
+      a{
+        color: var(--amarillo);
+        text-decoration: underline;
+        font-weight:500
+      }
+  
+      
+      
+    }
+  
+    .form-check-input:checked {
+      background-color: var(--amarillo); 
+      border-color: var(--amarillo);
+    }
+  
+    .form-check-input:focus {
+      box-shadow: 0 0 0 0.25rem rgba(255, 204, 0, 0.25);
+      border-color: var(--amarillo) ; 
+  
+  }
+    
+  }
