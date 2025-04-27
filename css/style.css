@@ -18,6 +18,9 @@ header#header{
     }
 }
 
+html{
+  overflow-x: hidden;
+}
 
 section#banner {
     min-height: 100vh;
